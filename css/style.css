@@ -1,0 +1,16 @@
+*
+{box-sizing: border-box;
+}
+
+/*Mediaquery Mobile*/
+@media only screen and (min-width:375px){
+
+
+}
+
+/*Mediaquery Desktop*/
+@media only screen and (min-width:1440px){
+
+
+}
+

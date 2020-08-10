@@ -13,19 +13,20 @@
 </head>
 <body>
     <header>
-        <div>
-            <img id="container" src="images/logo.svg" width="100%">
-        </div>
-        <nav>
-            <ul>
-                <il>Features</il>
-                <il>Pricing</il>
-                <il>Resourses</il>
-                <il>Login</il>
-                <button class="blue-button">Sign Up</button>
-            </ul>
-        </nav>
-    </header>
+        <a href="" class="logo">
+            <img src="images/logo.png" alt="">
+        </a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li class="nav-left"><a href="#">Resources</a></li>
+          <hr>
+          <li><a href="#">Login</a></li>
+          <li><a class="btn-nav" href="#">Sign up</a></li>
+        </ul>
+      </header>
     <section class="hero-wrapper">
         <div class="hero-message-wrapper">
             <h1>More than just shorter links</h1>
@@ -42,6 +43,7 @@
                 <input type="text" placeholder="Shorten a link here...">
                 <small>Please add a link</small>
                 <label for="display-links">Shorten It!</label>
+                <small class="desktop-small">Please add a link</small>
             </div>
             <input type="checkbox" id="display-links">
             <div class="div-links">
@@ -69,44 +71,41 @@
         </div>
     </section>
     <section class="card-wrapper">
+        <div class="main">
+            <h2> Advanced Statistics</h2> 
+            <p>Track how your links are performing across the web with our advanced statistics dashboard</p>
+        </div>
         <div class="section-advanced-wrapper"> <!--Eddy-->
-            <div class="main">
-                <h2> Advanced Statistics</h2>
-                <p>Track how your links are performing across the web with our advanced statistics dashboard</p>
+            <hr class="line-of-section">
+            <div class="card-brand">
+                <div class="image-wrapper-brand">
+                    <span>
+                        <img src="/images/icon-brand-recognition.svg" alt="recognition">
+                    </span>
+                </div>
+                <h4>Brand recognition</h4>
+                <p>Boost your brand recognition with each click. Generic links don't mean a thing. Branded links help instil 
+                        confidence in your content</p>                
+            </div>  
+            <div class="card-rec">
+                <div class="image-wrapper-rec">
+                    <span>
+                        <img src="/images/icon-detailed-records.svg" alt="records">
+                    </span>
+                </div>
+                <h4>Detailed Records</h4>
+                 <p>Gain insights into who is clicking your links. Knowing when and where people engage with your content help
+                        inform better decisions.</p>                
             </div>
-            <div class="card-body">
-                <div class="card-brand">
-                    <div class="image-wrapper-brand">
-                            <span>
-                                <img src="/images/icon-brand-recognition.svg" alt="recognition">
-                            </span>
-                    </div>
-                    <h4>Brand recognition</h4>
-                    <p>Boost your brand recognition with each click. Generic links don't mean a thing. Branded links help instil
-                        confidence in your content
-                    </p>
+            <div class="card-custom">
+                <div class="image-wrapper-custom">
+                     <span>
+                        <img src="/images/icon-fully-customizable.svg" alt="customizable">
+                    </span>
                 </div>
-                <div class="card-rec">
-                    <div class="image-wrapper-rec">
-                        <span>
-                            <img src="/images/icon-detailed-records.svg" alt="records">
-                        </span>
-                    </div>
-                    <h4>Detailed Records</h4>
-                    <p>Gain insights into who is clicking your links. Knowing when and where people engage with your content help
-                        inform better decisions.
-                    </p>
-                </div>
-                <div class="card-custom">
-                    <div class="image-wrapper-custom">
-                        <span>
-                            <img src="/images/icon-fully-customizable.svg" alt="customizable">
-                        </span>
-                    </div>
-                    <h4>Fully Customizable</h4>
-                    <p>Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.</p>
-                </div>
-            </div>
+                <h4>Fully Customizable</h4>
+                <p>Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.</p>                                               
+            </div>  
         </div>
     </section>
     <section class="boost-wrapper">
